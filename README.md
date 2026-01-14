@@ -17,15 +17,15 @@ The goal of this project is to demonstrate clean Terraform structure, modular de
 - Helm (later stages)
 
 ## Repository Structure
-infra/
-envs/
-dev/ # Environment-specific Terraform configuration
-modules/
-vpc/ # Networking (VPC, subnets, routing)
-eks/ # EKS cluster and node groups
-ecr/ # Container registry
-iam/ # IAM roles and policies
-app/ # Application artifacts (later)
+- infra/
+- envs/
+- dev/ # Environment-specific Terraform configuration
+- modules/
+- vpc/ # Networking (VPC, subnets, routing)
+- eks/ # EKS cluster and node groups
+- ecr/ # Container registry
+- iam/ # IAM roles and policies
+- app/ # Application artifacts (later)
 
 
 ## State Management
